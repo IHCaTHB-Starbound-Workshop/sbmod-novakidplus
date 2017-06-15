@@ -1,0 +1,144 @@
+{
+
+  "kind" : "novakidplus",
+  "charCreationTooltip" : {
+    "title" : "novakidplus",
+    "subTitle" : "Minimalist Race Mod Template",
+    "description" : "Species that utilize existing assets where it can."
+  },
+
+  "statusEffects" : [ "novakidglow" ],
+  "humanoidOverrides" : {
+    "bodyFullbright" : true
+  },
+
+  "nameGen" : [ "/species/novakidnamegen.config:names", "/species/novakidnamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/novakidhurt_male2.ogg", "/sfx/humanoid/novakidhurt_female2.ogg" ],
+  "charGenTextLabels" : [ "Gas colour", "Hair style", "Shirt", "Legwear", "", "Brand", "Shirt colour", "Legwear colour", "novakidplus", "Personality" ],
+  "skull" : "/humanoid/novakid/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ff99e6FF?replace=31a6ffFF=e359b9FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+// Empty Hands
+      { "item" : "flagnovakid" },
+
+// Anvil
+      { "item" : "novatier1head" },
+      { "item" : "novatier1chest" },
+      { "item" : "novatier1pants" },
+      { "item" : "novatier2head" },
+      { "item" : "novatier2chest" },
+      { "item" : "novatier2pants" },
+      { "item" : "ironrevolver" },
+      { "item" : "ironassaultrifle" },
+      { "item" : "tungstenmagnum" },
+      { "item" : "tungstenshotgun" },
+
+
+// Anvil2
+      { "item" : "novatier3head" },
+      { "item" : "novatier3chest" },
+      { "item" : "novatier3pants" },
+      { "item" : "novatier4head" },
+      { "item" : "novatier4chest" },
+      { "item" : "novatier4pants" },
+      { "item" : "titaniummachinepistol" },
+      { "item" : "titaniumsniperrifle" },
+      { "item" : "durasteelrevolver" },
+      { "item" : "durasteelassaultrifle" },
+
+// Anvil3
+      { "item" : "novatier5ahead" },
+      { "item" : "novatier5achest" },
+      { "item" : "novatier5apants" },
+      { "item" : "novatier6ahead" },
+      { "item" : "novatier6achest" },
+      { "item" : "novatier6apants" },
+
+      { "item" : "novatier5mhead" },
+      { "item" : "novatier5mchest" },
+      { "item" : "novatier5mpants" },
+      { "item" : "novatier6mhead" },
+      { "item" : "novatier6mchest" },
+      { "item" : "novatier6mpants" },
+
+      { "item" : "novatier5shead" },
+      { "item" : "novatier5schest" },
+      { "item" : "novatier5spants" },
+      { "item" : "novatier6shead" },
+      { "item" : "novatier6schest" },
+      { "item" : "novatier6spants" },
+
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+
+// Furniture Table 2
+      { "item" : "novakidstoragelocker" },
+      { "item" : "novakidshipdoor" },
+      { "item" : "novakidshiphatch" },
+
+// Spinning Wheel
+      { "item" : "novakidfancychest" },
+      { "item" : "novakidfancypants" },
+      { "item" : "novakidjacket" },
+      { "item" : "novakidjacketpants" },
+      { "item" : "novakidsuspenders" },
+      { "item" : "novakidsuspenderspants" },
+      { "item" : "novakidwaistcoat" },
+      { "item" : "novakidblackpants" }
+    ]
+  },
+
+//  "altOptionAsFacialMask" : true,
+//  "altColorAsFacialMaskSubColor" : true,
+//  "altOptionAsHairColor" : true,
+  "altOptionAsUndyColor" : true,
+
+//  "bodyColorAsFacialMaskSubColor" : true,
+
+//  "hairColorAsBodySubColor" : true,
+  "headOptionAsFacialhair" : true,
+//  "headOptionAsHairColor" : true,
+
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/male.png",
+      "characterImage" : "/interface/title/novakidplusmale.png",
+      "hair" : [ "1" ],
+      "shirt" : [ "novakidsuspenders", "novakidjacket", "novakidwaistcoat", "novakidfancychest" ],
+      "pants" : [ "novakidsuspenderspants", "novakidjacketpants", "novakidblackpants", "novakidfancypants" ],
+      "facialHairGroup" : "brand",
+      "facialHair" : [ "1" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/female.png",
+      "characterImage" : "/interface/title/novakidplusfemale.png",
+      "hair" : [ "1" ],
+      "shirt" : [ "novakidsuspenders", "novakidjacket", "novakidwaistcoat", "novakidfancychest" ],
+      "pants" : [ "novakidsuspenderspants", "novakidjacketpants", "novakidblackpants", "novakidfancypants" ],
+      "facialHairGroup" : "brand",
+      "facialHair" : [ "1" ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    //placeholder blue
+    { "fff8b5" : "8ac", "fde03f" : "68a", "f6b919" : "468", "806319" : "246" },
+    //placeholder brown
+    { "fff8b5" : "ca8", "fde03f" : "a86", "f6b919" : "864", "806319" : "642" },
+    //placeholder grey
+    { "fff8b5" : "eee", "fde03f" : "ccc", "f6b919" : "aaa", "806319" : "888" }
+  ],
+  "undyColor" : [ "" ],
+  "hairColor" : [ "" ]
+}

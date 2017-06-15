@@ -1,0 +1,9 @@
+{
+  "author" : "IHCaTHB",
+  "description" : "",
+  "friendlyName" : "",
+  "includes" : ["MRMTINIT.IHC"],
+  "name" : "NOVAKIDPLUS.IHC",
+  "requires" : [],
+  "version" : "0.1"
+}
