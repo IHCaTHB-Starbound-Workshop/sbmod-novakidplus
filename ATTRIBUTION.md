@@ -5,6 +5,10 @@
 
 IHCaTHB | forum: [714236] | steam: [The Honey Badger] | github: [IsaacHart]
 
+art originally by:
+
+Bietol | forum [10704]
+
 ## credit
 
 [Chucklefish], developer and publisher of [Starbound].
@@ -30,6 +34,8 @@ and viewers, like you.
 [The Honey Badger]: https://steamcommunity.com/profiles/76561197966846799/myworkshopfiles/?appid=211820
 
 [IsaacHart]: https://github.com/IHCaTHB-Starbound-Workshop
+
+[10704]: http://community.playstarbound.com/members/10704
 
 [Chucklefish]: http://www.chucklefish.org
 
